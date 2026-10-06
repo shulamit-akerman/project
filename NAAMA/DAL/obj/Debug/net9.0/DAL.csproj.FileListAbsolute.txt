@@ -1,0 +1,29 @@
+C:\Users\ACK\Desktop\פרויקט טרמפים\project\DAL\bin\Debug\net9.0\DAL.deps.json
+C:\Users\ACK\Desktop\פרויקט טרמפים\project\DAL\bin\Debug\net9.0\DAL.runtimeconfig.json
+C:\Users\ACK\Desktop\פרויקט טרמפים\project\DAL\bin\Debug\net9.0\DAL.dll
+C:\Users\ACK\Desktop\פרויקט טרמפים\project\DAL\bin\Debug\net9.0\DAL.pdb
+C:\Users\ACK\Desktop\פרויקט טרמפים\project\DAL\obj\Debug\net9.0\DAL.csproj.AssemblyReference.cache
+C:\Users\ACK\Desktop\פרויקט טרמפים\project\DAL\obj\Debug\net9.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACK\Desktop\פרויקט טרמפים\project\DAL\obj\Debug\net9.0\DAL.AssemblyInfoInputs.cache
+C:\Users\ACK\Desktop\פרויקט טרמפים\project\DAL\obj\Debug\net9.0\DAL.AssemblyInfo.cs
+C:\Users\ACK\Desktop\פרויקט טרמפים\project\DAL\obj\Debug\net9.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\ACK\Desktop\פרויקט טרמפים\project\DAL\obj\Debug\net9.0\DAL.dll
+C:\Users\ACK\Desktop\פרויקט טרמפים\project\DAL\obj\Debug\net9.0\refint\DAL.dll
+C:\Users\ACK\Desktop\פרויקט טרמפים\project\DAL\obj\Debug\net9.0\DAL.pdb
+C:\Users\ACK\Desktop\פרויקט טרמפים\project\DAL\obj\Debug\net9.0\DAL.genruntimeconfig.cache
+C:\Users\ACK\Desktop\פרויקט טרמפים\project\DAL\obj\Debug\net9.0\ref\DAL.dll
+C:\Users\mac\Downloads\NAAMA\DAL\obj\Debug\net9.0\DAL.csproj.AssemblyReference.cache
+C:\Users\mac\Downloads\NAAMA\DAL\obj\Debug\net9.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mac\Downloads\NAAMA\DAL\obj\Debug\net9.0\DAL.AssemblyInfoInputs.cache
+C:\Users\mac\Downloads\NAAMA\DAL\obj\Debug\net9.0\DAL.AssemblyInfo.cs
+C:\Users\mac\Downloads\NAAMA\DAL\obj\Debug\net9.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\mac\Downloads\NAAMA\DAL\obj\Debug\net9.0\DAL.dll
+C:\Users\mac\Downloads\NAAMA\DAL\obj\Debug\net9.0\refint\DAL.dll
+C:\Users\mac\Downloads\NAAMA\DAL\obj\Debug\net9.0\DAL.pdb
+C:\Users\mac\Downloads\NAAMA\DAL\bin\Debug\net9.0\DAL.deps.json
+C:\Users\mac\Downloads\NAAMA\DAL\bin\Debug\net9.0\DAL.runtimeconfig.json
+C:\Users\mac\Downloads\NAAMA\DAL\bin\Debug\net9.0\DAL.dll
+C:\Users\mac\Downloads\NAAMA\DAL\bin\Debug\net9.0\DAL.pdb
+C:\Users\mac\Downloads\NAAMA\DAL\obj\Debug\net9.0\DAL.genruntimeconfig.cache
+C:\Users\mac\Downloads\NAAMA\DAL\obj\Debug\net9.0\ref\DAL.dll
+C:\Users\mac\Downloads\NAAMA\DAL\obj\Debug\net9.0\DAL.csproj.Up2Date
