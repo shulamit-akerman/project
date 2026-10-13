@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{663D0809-5ADF-4512-BA8C-3721F59728E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{C3F55F1A-BCB8-47A3-8F62-1939D4189D5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "DTO\DTO.csproj", "{AC36E7E5-6346-4D7F-8147-B0E69075A1DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{663D0809-5ADF-4512-BA8C-3721F59728E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{663D0809-5ADF-4512-BA8C-3721F59728E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{663D0809-5ADF-4512-BA8C-3721F59728E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3F55F1A-BCB8-47A3-8F62-1939D4189D5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3F55F1A-BCB8-47A3-8F62-1939D4189D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3F55F1A-BCB8-47A3-8F62-1939D4189D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3F55F1A-BCB8-47A3-8F62-1939D4189D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC36E7E5-6346-4D7F-8147-B0E69075A1DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC36E7E5-6346-4D7F-8147-B0E69075A1DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC36E7E5-6346-4D7F-8147-B0E69075A1DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC36E7E5-6346-4D7F-8147-B0E69075A1DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

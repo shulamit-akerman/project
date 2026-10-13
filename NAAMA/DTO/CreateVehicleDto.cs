@@ -1,12 +1,10 @@
-namespace RideSharing.DTOs
+namespace NAAMA.DTOs;
+
+public sealed class CreateVehicleDto
 {
-    public class CreateVehicleDto
-    {
-        public string Make { get; set; }
-        public string Model { get; set; }
-        public int Year { get; set; }
-        public string Color { get; set; }
-        public string LicensePlate { get; set; }
-        public int SeatsCount { get; set; }
-    }
+    public int DriverId { get; set; }
+    public string LicensePlate { get; set; } = "";
+    public string Model { get; set; } = "";
+    public string Color { get; set; } = "";
+    public int AvailableSeats { get; set; }
 }

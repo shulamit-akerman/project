@@ -1,3 +1,5 @@
+using NAAMA.DTOs;
+
 namespace RideSharing.DTOs
 {
     public class RideDetailsDto : RideSummaryDto
