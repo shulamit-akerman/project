@@ -1,15 +1,18 @@
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using DAL.Models;
+using System.Collections.Generic; // מייבא את מרחב השמות System.Collections.Generic כדי להשתמש בטיפוסים ובפעולות שלו.
+using System.Threading.Tasks; // מייבא את מרחב השמות System.Threading.Tasks כדי להשתמש בטיפוסים ובפעולות שלו.
+using DAL.Models; // מייבא את מרחב השמות DAL.Models כדי להשתמש בטיפוסים ובפעולות שלו.
+using BLL.Services; // מייבא את מרחב השמות BLL.Services כדי להשתמש בטיפוסים ובפעולות שלו.
 
-namespace BLL.Interfaces
+namespace BLL.Interfaces // משייך את הקוד למרחב השמות BLL.Interfaces.
 {
-    public interface IUserService
+    /// <summary>
+    /// מספק פעולות משתמש ומכין משתמש חדש לשמירה באופן מאובטח.
+    /// </summary>
+    public interface IUserService : IEntityService<Users, int> // מגדיר את חוזה הפעולות של IUserService.
     {
-        Task<IEnumerable<Users>> GetAllAsync();
-        Task<Users?> GetByIdAsync(int id);
-        Task AddAsync(Users user);
-        Task UpdateAsync(Users user);
-        Task DeleteAsync(int id);
+        /// <summary>
+        /// מגבב את סיסמת המשתמש ומאתחל את פרטי החשבון לפני יצירתו.
+        /// </summary>
+        void PrepareForCreate(Users user, string password); // מכין את פרטי המשתמש ליצירה, כולל גיבוב הסיסמה ואתחול מצב החשבון.
     }
 }

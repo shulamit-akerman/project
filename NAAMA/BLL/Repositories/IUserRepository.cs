@@ -1,12 +1,10 @@
-using DAL.Models;
+using DAL.Models; // מייבא את מרחב השמות DAL.Models כדי להשתמש בטיפוסים ובפעולות שלו.
 
-namespace BLL.Repositories;
+namespace BLL.Repositories; // משייך את הקוד למרחב השמות BLL.Repositories.
 
-public interface IUserRepository
+/// <summary>
+/// מגדיר פעולות גישה לנתונים עבור משתמשים.
+/// </summary>
+public interface IUserRepository : IEntityRepository<Users, int> // מגדיר את חוזה הפעולות של IUserRepository.
 {
-    Task<Users?> GetByIdAsync(int id);
-    Task<IReadOnlyList<Users>> GetAllAsync();
-    Task<Users> AddAsync(Users entity);
-    Task UpdateAsync(int id, Users entity);
-    Task DeleteAsync(int id);
 }

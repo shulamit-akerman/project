@@ -1,13 +1,14 @@
-using DAL.Models;
+using DAL.Models; // מייבא את מרחב השמות DAL.Models כדי להשתמש בטיפוסים ובפעולות שלו.
 
-namespace BLL.Repositories;
+namespace BLL.Repositories; // משייך את הקוד למרחב השמות BLL.Repositories.
 
-public interface IMassageToBookingRepository
+/// <summary>
+/// מגדיר פעולות גישה להודעות המשויכות להזמנות.
+/// </summary>
+public interface IMassageToBookingRepository : IEntityRepository<MassageToBooking, int> // מגדיר את חוזה הפעולות של IMassageToBookingRepository.
 {
-    Task<MassageToBooking?> GetByIdAsync(int id);
-    Task<IReadOnlyList<MassageToBooking>> GetAllAsync();
-    Task<IReadOnlyList<MassageToBooking>> GetByBookingIdAsync(int bookingId);
-    Task<MassageToBooking> AddAsync(MassageToBooking entity);
-    Task UpdateAsync(int id, MassageToBooking entity);
-    Task DeleteAsync(int id);
+    /// <summary>
+    /// מאחזר את כל ההודעות השייכות להזמנה מסוימת.
+    /// </summary>
+    Task<IReadOnlyList<MassageToBooking>> GetByBookingIdAsync(int bookingId); // מאחזר הודעות המקושרות להזמנה שצוינה.
 }

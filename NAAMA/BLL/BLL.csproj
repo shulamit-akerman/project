@@ -1,16 +1,20 @@
+<!-- הגדרות פרויקט הלוגיקה העסקית: יעד .NET, nullable ו־AutoMapper. -->
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <!-- גרסת .NET וסוגי בדיקות המהדר החלים על שכבת הלוגיקה. -->
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
+    <!-- ספריית מיפוי האובייקטים שבה משתמשת שכבת הלוגיקה. -->
     <PackageReference Include="AutoMapper" Version="15.1.3" />
   </ItemGroup>
 
   <ItemGroup>
+    <!-- שכבות הנתונים וה־DTO שבהן משתמשת שכבת הלוגיקה. -->
     <ProjectReference Include="..\DAL\DAL.csproj" />
     <ProjectReference Include="..\DTO\DTO.csproj" />
   </ItemGroup>

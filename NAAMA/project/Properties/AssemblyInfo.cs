@@ -1,7 +1,11 @@
-﻿using System.Reflection;
+// מייבא מאפיינים לציון פרטי ההרכבה.
+using System.Reflection;
+// מייבא מאפיינים הקשורים למהדר ולתכונות ההרכבה.
 using System.Runtime.CompilerServices;
+// מייבא מאפיינים להגדרות תאימות ונראות ל-COM.
 using System.Runtime.InteropServices;
 
+﻿// קובץ זה מגדיר מטא־נתונים של ההרכבה והגדרות החשיפה שלה לרכיבים חיצוניים.
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.

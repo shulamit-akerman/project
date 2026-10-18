@@ -1,12 +1,10 @@
-using DAL.Models;
+using DAL.Models; // מייבא את מרחב השמות DAL.Models כדי להשתמש בטיפוסים ובפעולות שלו.
 
-namespace BLL.Repositories;
+namespace BLL.Repositories; // משייך את הקוד למרחב השמות BLL.Repositories.
 
-public interface IBookingRepository
+/// <summary>
+/// מגדיר פעולות גישה לנתונים עבור הזמנות.
+/// </summary>
+public interface IBookingRepository : IEntityRepository<Booking, int> // מגדיר את חוזה הפעולות של IBookingRepository.
 {
-    Task<Booking?> GetByIdAsync(int id);
-    Task<IReadOnlyList<Booking>> GetAllAsync();
-    Task<Booking> AddAsync(Booking entity);
-    Task UpdateAsync(int id, Booking entity);
-    Task DeleteAsync(int id);
 }

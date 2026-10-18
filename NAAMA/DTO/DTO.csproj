@@ -1,6 +1,8 @@
+<!-- הגדרות פרויקט אובייקטי ההעברה (DTO) המשותפים לשכבות המערכת. -->
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <!-- גרסת .NET והגדרות nullable וה־usings האוטומטיים. -->
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>

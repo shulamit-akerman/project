@@ -1,12 +1,10 @@
-using DAL.Models;
+using DAL.Models; // מייבא את מרחב השמות DAL.Models כדי להשתמש בטיפוסים ובפעולות שלו.
 
-namespace BLL.Repositories;
+namespace BLL.Repositories; // משייך את הקוד למרחב השמות BLL.Repositories.
 
-public interface IChatMessageRepository
+/// <summary>
+/// מגדיר פעולות גישה לנתונים עבור הודעות צ'אט.
+/// </summary>
+public interface IChatMessageRepository : IEntityRepository<ChatMessage, int> // מגדיר את חוזה הפעולות של IChatMessageRepository.
 {
-    Task<ChatMessage?> GetByIdAsync(int id);
-    Task<IReadOnlyList<ChatMessage>> GetAllAsync();
-    Task<ChatMessage> AddAsync(ChatMessage entity);
-    Task UpdateAsync(int id, ChatMessage entity);
-    Task DeleteAsync(int id);
 }

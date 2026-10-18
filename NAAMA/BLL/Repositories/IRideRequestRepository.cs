@@ -1,12 +1,10 @@
-using DAL.Models;
+using DAL.Models; // מייבא את מרחב השמות DAL.Models כדי להשתמש בטיפוסים ובפעולות שלו.
 
-namespace BLL.Repositories;
+namespace BLL.Repositories; // משייך את הקוד למרחב השמות BLL.Repositories.
 
-public interface IRideRequestRepository
+/// <summary>
+/// מגדיר פעולות גישה לנתונים עבור בקשות הצטרפות לנסיעה.
+/// </summary>
+public interface IRideRequestRepository : IEntityRepository<RideRequest, int> // מגדיר את חוזה הפעולות של IRideRequestRepository.
 {
-    Task<RideRequest?> GetByIdAsync(int id);
-    Task<IReadOnlyList<RideRequest>> GetAllAsync();
-    Task<RideRequest> AddAsync(RideRequest entity);
-    Task UpdateAsync(int id, RideRequest entity);
-    Task DeleteAsync(int id);
 }
